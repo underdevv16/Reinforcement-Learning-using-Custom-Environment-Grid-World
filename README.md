@@ -471,6 +471,19 @@ for episode in range(4):
 
 env.close()
 ```
+
+## Plotting the Results
+
+Finally, it is time to see how our model perform over the 70,000 episodes. To do so, just type the following:
+
+```bash
+plt.plot(totalRewards)
+plt.xlabel('Episode')
+plt.ylabel('Total Reward')
+plt.title('Total Rewards over Episodes')
+plt.show()
+```
+
 ## Final Words...
 
 Reinforcement Learning is a really intresting field for a lot of Research and other domains including Robotics, Games, and others.
