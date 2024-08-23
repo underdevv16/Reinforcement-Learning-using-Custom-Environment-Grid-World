@@ -485,6 +485,7 @@ plt.show()
 ```
 
 The final results should be something like:
+
 ![Results](Results.png)
 
 ## Final Words...
