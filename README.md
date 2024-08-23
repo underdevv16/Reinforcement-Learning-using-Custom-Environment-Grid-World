@@ -484,6 +484,9 @@ plt.title('Total Rewards over Episodes')
 plt.show()
 ```
 
+The final results should be something like:
+![Results](Results.png)
+
 ## Final Words...
 
 Reinforcement Learning is a really intresting field for a lot of Research and other domains including Robotics, Games, and others.
