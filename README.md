@@ -7,12 +7,16 @@ Custom 9x9 GridWorld environment implemented in Python with Pygame. Features an 
 - 9x9 grid layout with various states.
 - Dynamic portal system with distinct entry and exit points.
 - Visualization using Pygame.
+- Agent gets a -1 reward for every step taken, apart from travelling via the Portals and Reaching the destination, both of which result in a reward of 0.
 
 I created the Agent as the famous anime character, Naruto🍥 who has to reach his favourite bowl of Ichiraku Ramen🍜 in the best possible way!!
 
+This is how it looks like:
+
+![Env_Window](Env_Window.png)
+
 Feel free to play around and customize to your personal favourites😉
 ## Installation
-
 
 1. Clone the repository :
     ```bash
